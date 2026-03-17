@@ -1,0 +1,86 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #4b0082;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+/* Paragraph styles */
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 20px;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #4b0082;
+    border-radius: 10px;
+}
+
+/* Link styles */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #4b0082;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+a:hover {
+    background: #9370db;
+}
+
+/* Container for links */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 10px;
+    }
+
+    img {
+        max-width: 90%;
+        border-width: 3px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    a {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}

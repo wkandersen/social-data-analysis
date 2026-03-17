@@ -1,10 +1,24 @@
-> <!DOCTYPE html>
-> <html>
-> <head>
->     <title>My Data Viz Site</title>
-> </head>
-> <body>
->     <h1>Hello World!</h1>
->     <p>This site will soon contain interactive data visualizations about crime in San Francisco.</p>
-> </body>
-> </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Data Viz Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>San Francisco Crime Data Visualizations</h1>
+    <p>This site features interactive data visualizations about crime in San Francisco.</p>
+
+    <img src="images/sf_crime_categories.png" alt="Yearly crime trends in SF" style="max-width: 50%;">
+
+    <div class="container">
+        <p>To see the where cars are most likely to be stolen on a sundays, click the link below:</p>
+        <a href="visualizations/crime_hourly_interactive.html">View Theft Probability Map on sundays</a>
+
+        <p>To see where in general theft/larceny is most common, click the link below:</p>
+        <a href="visualizations/theft_probability_map.html">View Crime Location Interactive Map</a>
+
+        <p>To see the Drug/Narcotic Heatmap by Time, look below and see how it changes over time by pressing the play button:</p>
+        <iframe src="visualizations/drug_narcotic_heatmap_time.html" width="100%" height="600" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
